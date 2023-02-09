@@ -26,12 +26,11 @@ def print_tasks():
         print (t.taskDesc)
 
 def main():
-    print(task_queue)
     add_task(Task("Write List"))
-    #print_tasks()
+    print_tasks()
     add_task(Task("Make Breakfast"))
     add_task(Task("Respond to Email", True))
-    print(task_queue)
+    print()
     print_tasks()
     print(do_task())
     return
